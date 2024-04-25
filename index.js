@@ -15,7 +15,7 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 5000;
 
-mongoose.connect("mongodb+srv://sagarpawarsp012:Sagar1315@cluster0.5fjbebb.mongodb.net/HotelSystem", () => {
+mongoose.connect("mongodb://guesteasedb:70ZrgbVMg5gd9uQFmj6XUzstvtWT5C9G2xul5ODEu7FhwtKv6ZaNOxr4npr0igXCg9nlfiXcdQPtACDbM6ditw==@guesteasedb.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@guesteasedb@/HotelSystem", () => {
     console.log('Connected to MongoDB');
 })
 
